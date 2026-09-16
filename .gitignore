@@ -1,0 +1,33 @@
+# Secrets & local config
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+配置记事本.md
+
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/**/*.pyc
+backend/.pytest_cache/
+backend/zhuangleme.db
+backend/test_zhuangleme.db
+backend/*.db
+backend/build/
+backend/dist/
+*.py[cod]
+
+# Node / Electron
+desktop/node_modules/
+desktop/dist/
+desktop/dist-electron/
+desktop/release/
+
+# Logs & local tooling
+*.log
+.cursor/
+.DS_Store
+Thumbs.db
+*.local
